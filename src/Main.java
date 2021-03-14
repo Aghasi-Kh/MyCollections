@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        CustomList<String> customList = new CustomArrayList<>();
+        CustomList<String> customList = new CustomLinkedList<>();
 
         customList.add("Pargev");
         customList.add("sasdasf");
